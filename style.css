@@ -72,12 +72,14 @@ body {
 
 /* main part of the page */
 
+
 figure {
-    float: right;
+    float: center;
     height: 1200px;
-    width: 740px;
-    margin: none;
-    padding: none;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
@@ -93,13 +95,7 @@ main {
     padding: 2px;
     margin: 20px;
     font-size: 20px;
+    text-align: center;
   
-    
-}
-
-aside {
-    float: left;
-    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
-    font-family: 'Times New Roman';
     
 }
