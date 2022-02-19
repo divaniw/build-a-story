@@ -62,13 +62,70 @@ a:hover, a:active {
 			background-color: #0093E9;
 			}
 
-input {
-    height: 200px;
-    width: 200px;
-    float: right;
-    font-weight: 200;
+.buttonIn {
+     
+        min-width: 140px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background: #80ed99;
+        box-shadow: 0 5px #57cc99;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+        text-align: center;
+      }
+
+.buttonIn:hover {
+        box-shadow: 0 3px #57cc99;
+        top: 1px;
+      }
+.buttonIn:active {
+        box-shadow: 0 0 #57cc99;
+        top: 5px;
+      }
+
+.buttonUp {
     
-}
+    margin-top: 10px;
+    margin-right: 10px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ff6392;
+    box-shadow: 0 5px #ff0a78;
+    float: right;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .buttonUp:hover {
+    box-shadow: 0 3px #ff0a78;
+    top: 1px;
+  }
+  .buttonUp:active {
+    box-shadow: 0 0 #ff0a78;
+    top: 5px;
+  }
+
 
 /* entire page */
 
